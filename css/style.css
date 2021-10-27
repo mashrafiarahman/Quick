@@ -1,0 +1,175 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	font-family: sans-serif;
+}
+/* header start */
+header{
+	border: 1px solid black;
+	padding: 10px 0px;
+}
+.wrapper{
+	width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.logo{
+	width: 10%;
+    float: left;
+}
+.logo img{
+	width: 100%;
+}
+.menu{
+	width: 45%;
+    float: right;
+}
+.menu ul{
+	float: right;
+	padding-top: 2px ;
+}
+.menu ul li{
+	list-style-type: none;
+    float: left;
+}
+.menu ul li a{
+	text-decoration: none;
+	display: inline-block;
+	margin: 0px 20px;
+	color: #0F2656;;
+}
+.menu ul li a:hover{
+	color: #008AFF;
+}
+.menu ul li:last-child a{
+	margin-right: 0px;
+}
+/* header end */
+
+/* banner start */
+.banner{
+	padding: 50px 0px
+}
+.wrapper2{
+	width: 60%;
+    margin: 0 auto;
+}
+
+.b-content{
+	text-align: center;
+}
+
+.b-h1{
+	margin: 0px;
+	line-height: 70px;
+	font-size: 55px;
+    color: #0F2656;
+}
+span{
+    color: #1166FF;
+}
+.b-p1{
+	margin: 30px 0px;
+    color: #0F2656;
+    font-size: 18px;
+    line-height: 25px;
+}
+.b-img {
+	width: 80%;
+    margin: 0 auto;
+}
+.b-img img{
+	width: 100%;
+	transition: .3s;
+}
+.b-img img:hover{
+	transform: scale(.8);
+}
+/* banner end */
+/* successfull start */
+.successfull{
+	padding: 40px 0px
+}
+.s-content{
+	overflow: hidden;
+}
+.s-left{
+	width: 42%;
+	float: left;
+    text-align: right;
+}
+.s-left h2{
+	font-size: 55px;
+    color: #F15767;
+	margin: 10px 0px;
+}
+.s-left p{
+	font-size: 15px;
+    color: #0F2656;
+	margin: 10px 0px;
+	line-height: 25px;
+}
+.s-right{
+	float: right;
+	width: 50%;
+	margin: 0px 35px 0px 0px;
+}
+.s-right h2{
+	font-size: 50px;
+    color: #0F2656;
+	margin: 0px;
+}
+/* successfull end */
+
+/* service start */
+.service{
+	padding: 50px 0px;
+}
+.s-wrapper{}
+.s-single{
+	padding: 50px 30px;
+	width: 26%;
+    float: left;
+    margin: 0px 14px;
+}
+.pink{
+	background-color:#FDEBED;
+}
+.green{
+	background-color: #EBF9F4;
+}
+.yellow{
+	background-color: #FFF2D6;
+}
+.s-img{}
+.s-img img{
+	width: 100%;
+}
+.s-h2{
+	margin: 15px 0px;
+    color: #0F2656;
+    font-size: 20px;
+}
+.s-p1{
+	line-height: 25px;
+	font-size: 18px;
+	margin: 0px;
+    color: #0F2656;
+}
+/* service end */
+/* footer start */
+.footer{
+	background-color: #008AFF;
+	text-align: center;
+	padding: 20px 0px;
+}
+.f-1{
+	color: #9ED2FF;
+	font-size: 13px;
+}
+.footer span{
+	color: #FFFFFF;
+	letter-spacing: 5px;
+	font-size: 15px
+}
+/* footer end */
